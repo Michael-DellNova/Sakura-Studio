@@ -1,5 +1,32 @@
-* {
+/*******************Layout Styles************************/
+
+/* Body Styles */
+
+html {
+    background: url(images/cherry-blossom-branch.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+
+
+/* Navigation */
+
+header {
+    background-color: rgba(255, 255, 255, .5);
+    
+}
+
+header > img {
+    width: 7rem;
+}
+
+nav {
+    display: inline-flex;
+    gap: 1rem;
 }
