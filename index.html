@@ -4,25 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sakura Studio</title>
-
     <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    <header>   
-        <nav>
-            <img class="logo"  src="images/pngwing.com.png" alt="logo">
-            <ul class="navlinks">
-                <li><a href="#">about</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="cta">
-        <article>
-            <h1>Sakura Studio</h1>
-            <h3>Coming soon...</h3>
-        </article>
-    </section>
+    <!-- nav bar -->
+    <nav class="navbar">
+        <div class="logo-container"><a href="#"><img class="navlogo" src="images/pngwing.com.png" alt="logo"></a></div>
+        <ul class="navlist" id="naviList">
+            <li class="navlinks"><a href="#">about</a></li>
+            <li class="navlinks"><a href="#">service</a></li>
+            <li class="navlinks"><a href="#">portfolio</a></li>
+            <li class="navlinks"><a href="#">contact</a></li>
+        </ul>
+        <!-- Hamburger Menu Icon -->
+        <div class="menu" id="toggleButton">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <div class="grid-container">
+
+        <aside class="comments">
+            <div class="card">
+                <blockquote>"I love Sakura!"</blockquote>
+                <p>-Customer 1</p>
+            </div>
+            <div class="card">
+                <blockquote>"I love Sakura!"</blockquote>
+                <p>-Customer 2</p>
+            </div>
+            <div class="card">
+                <blockquote>"I love Sakura!"</blockquote>
+                <p>-Customer 3</p>
+            </div>
+        </aside>
+    
+        <div class="cta">
+            <img src="images/pngwing.com.png" alt="">
+            <h1>Welcome to Sakura Studio</h1>
+            <button>Book Now</button>
+        </div>
+    
+    </div>
+
+    <footer>&copy; Sakura Studio 2023</footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
