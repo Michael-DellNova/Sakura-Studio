@@ -1,0 +1,43 @@
+/* About Me Styles */
+
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+img.item {
+    width: 400px;
+    max-height: 500px;
+}
+
+div.item {
+    flex-basis: auto;
+    width: 800px;
+    min-height: 500px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow:
+    0 -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3); 
+}
+
+@media (max-width: 640px)
+{
+    article {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    div.item {
+        width: 400px;
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+}
+
